@@ -460,6 +460,10 @@ address {
   flex-wrap: wrap;
 }
 
+.footer-logo-text {
+  margin-bottom: 72px;
+}
+
 .footer-page .logo {
   display: block;
   text-align: center;
@@ -475,7 +479,6 @@ span.logo-studio {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-bottom: 72px;
 }
 
 .footer-soc-text {
@@ -813,8 +816,8 @@ span.logo-studio {
   }
 
   .team .container {
-    max-width: 264px;
-    padding: 0;
+    /* max-width: 264px; */
+    padding: 0 28px;
   }
 
   .footer-soc-icons {
@@ -953,6 +956,10 @@ span.logo-studio {
     flex-basis: calc((100% - 24px) / 2);
   }
 
+  .footer-page .logo {
+    text-align: left;
+  }
+
   .footer-logo-text {
     margin-right: 24px;
   }
@@ -1000,7 +1007,13 @@ span.logo-studio {
     margin-right: 76px;
   }
 
+  .contact-list {
+    gap: 40px;
+  }
+
+
   .contact-link {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
@@ -1142,10 +1155,6 @@ span.logo-studio {
 
   .footer-page-text {
     margin-bottom: 0;
-  }
-
-  .footer-page .logo {
-    text-align: left;
   }
 
   .form-cont {
